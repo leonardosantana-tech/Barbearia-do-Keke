@@ -1,0 +1,270 @@
+/* ================= RESET BÁSICO ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= CONFIGURAÇÕES GERAIS ================= */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ================= HEADER ================= */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 20px 60px;
+  background-color: #000;
+}
+
+.logo img {
+  height: 85px;
+  width: auto;
+  display: block;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+nav a {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e8c941 !important;
+}
+
+.botao-menu {
+  background-color: #0ba141;
+  padding: 10px 18px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* ================= HERO (NOVO LAYOUT CENTRALIZADO) ================= */
+#hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  /* Fundo com imagem + overlay escuro */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://www.qpontos.com.br/wp-content/uploads/2024/01/nathon-oski-EW_rqoSdDes-unsplash-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#hero .conteudo-texto {
+  width: 100%;
+}
+
+#hero h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+
+#hero h2 {
+  font-size: 31px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  text-decoration: solid;
+}
+
+.botao-acao {
+  display: inline-block;
+  background-color: #0ba141;
+  color: #ffffff;
+  padding: 16px 40px;
+  border-radius: 6px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#hero .conteudo-imagem {
+  display: none;
+}
+
+/* ================= SERVIÇOS ================= */
+#servicos {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+#servicos h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  letter-spacing: 4px;
+  margin-bottom: 50px;
+}
+
+.servicos-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.servico-item {
+  width: 25%;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.servico-item .conteudo-imagem {
+  width: 100%;
+  height: 150px;
+  background-color: #333;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.servico-item p {
+  font-weight: 600;
+}
+
+/* ================= IMAGENS SERVIÇOS ================= */
+.img-corte {
+  background-image: url("https://stoaindustria.com/wp-content/uploads/2022/03/barbearia.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-barba {
+  background-image: url("https://megaprofissional.com.br/upload/blog/24/mega-profissional-7-dicas-incriveis-para-fazer-sua-barbearia-bombar-1-media.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-sobrancelha {
+  background-image: url("https://ms.senac.br/Portals/0/Cursos/69474/Anexo_69474_133275268270660300.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-alisamento {
+  background-image: url("https://barbearianordus.com.br/wp-content/uploads/2023/03/Selagem-Masculina.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* ================= SOBRE (ZIG-ZAG INVERTIDO) ================= */
+#sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 80px 60px;
+  background-color: #121212;
+}
+
+#sobre .conteudo-imagem {
+  width: 45%;
+  height: 320px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+#sobre .conteudo-texto {
+  width: 50%;
+}
+
+#sobre h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+#sobre p {
+  line-height: 1.6;
+}
+
+/* ================= IMAGEM SOBRE NÓS ================= */
+
+#sobre .img-sobrenos {
+  background-image: url("https://blog.vertixprofessional.com.br/wp-content/uploads/2024/10/como-montar-uma-barbearia.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+/* ================= CONTATO ================= */
+#contato {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+#contato .conteudo-texto {
+  width: 100%;
+}
+
+#contato h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+#contato p {
+  margin-bottom: 10px;
+}
+
+/* ================= RODAPÉ ================= */
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #000;
+  font-size: 14px;
+}
+
+/* ================= WHATSAPP FIXO ================= */
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #0ba141;
+  border-radius: 50%;
+}
+.whatsapp-fixo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-fixo svg {
+  width: 40px;
+  height: 40px;
+}
