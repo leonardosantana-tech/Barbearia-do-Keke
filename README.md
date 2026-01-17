@@ -49,5 +49,6 @@ This project was essential to strengthen my **front-end development** foundation
 # 🚀 Próximas melhorias
 - Tornar o site adequado para acesso mobile
 - Utilizar fotos reais da barbearia
+- Utilizar informações reais da barbearia
 - Montar a tela de Login
 - Integrar API 
