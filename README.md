@@ -43,3 +43,11 @@ The website was developed using **HTML5 and CSS3**, applying front-end concepts 
 - User Experience (UX) best practices
 
 This project was essential to strengthen my **front-end development** foundation and gain hands-on experience building solutions for a real client.
+
+---
+
+# 🚀 Próximas melhorias
+- Tornar o site adequado para acesso mobile
+- Utilizar fotos reais da barbearia
+- Montar a tela de Login
+- Integrar API 
